@@ -1,0 +1,67 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color:#fff;
+}
+h2{
+    color:#000000;
+}
+.star{
+    color: white;
+}
+.rating .star {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+textarea {
+    width: 500px;
+    height: 50px;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #ff8c00; /* Orange color for buttons */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333; /* Dark background on hover */
+}
+
+
+
+
+
+
+/* Add your styles for comments and other elements here */
+
+.commentFrame {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.userName {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.userComment {
+    margin: 0;
+}

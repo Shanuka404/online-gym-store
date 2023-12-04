@@ -1,0 +1,89 @@
+/* Add this CSS to your Cart.css file */
+
+.cart {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.cart-info {
+    display: flex;
+    align-items: center;
+}
+
+.cart-info img {
+    max-width: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cart-info div {
+    text-align: left;
+}
+
+input[type="number"] {
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.sub-total {
+    font-weight: bold;
+}
+
+.buy-btn, .remove-btn {
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        color: white;
+        background-color: #333; /* Dark background color */
+        transition: background-color 0.3s, color 0.3s;
+        text-decoration: none;
+    }
+
+    .buy-btn:hover, .remove-btn:hover {
+        background-color: red;
+        color: black;
+    }
+
+    .buy-btn a, .remove-btn a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .buy-btn a:hover, .remove-btn a:hover {
+        text-decoration: underline;
+    }
